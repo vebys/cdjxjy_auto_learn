@@ -6,6 +6,7 @@
 # 使用方法
 ## 安装依赖
  自动安装selenium和ddddocr
+ 
  pip install -r requirements.txt
 ## 安装火狐浏览器
 下载对应火狐浏览器的webdriver即geckodriver，放到项目文件夹下
