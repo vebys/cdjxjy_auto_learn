@@ -2,14 +2,16 @@
 
 1、需要调用ddddocr验证码识别库
 2、需要安装火狐浏览器及下载对应版本的geckodriver到项目文件夹下
-#使用方法
+
+# 使用方法
 ## 安装依赖
+ 自动安装selenium和ddddocr
  pip install -r requirements.txt
-##安装火狐浏览器
+## 安装火狐浏览器
 下载对应火狐浏览器的webdriver即geckodriver，放到项目文件夹下
 下载地址：https://github.com/mozilla/geckodriver
 
-##配置登录账号和密码
+## 配置登录账号和密码
 打开项目文件夹下jxjy.txt  第一行写入用户，第二行写入密码
 
 ## 开始学习
