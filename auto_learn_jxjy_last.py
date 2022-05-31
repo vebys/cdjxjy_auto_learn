@@ -37,9 +37,7 @@ class TestTest2():
         self.driver.set_window_size(1936, 1048)
         self.driver.find_element(By.CSS_SELECTOR, ".top_bn01 > span").click()
         self.driver.find_element(By.ID, "myusername").click()
-        # self.driver.find_element(By.ID, "myusername").send_keys("a04057151")
         self.driver.find_element(By.ID, "myusername").send_keys(username)
-        # self.driver.find_element(By.ID, "mypassword").send_keys("--z3x3la")
         self.driver.find_element(By.ID, "mypassword").send_keys(password)
         # 保存验证码
         code_img = 'img/new_code.jgp'
